@@ -1,0 +1,107 @@
+.event-picture-container{
+  position: relative;
+display: inline-block;
+vertical-align: top;
+}
+.event-contact{
+  display: inline-block;
+width: 48%;
+margin-top: 1rem;
+margin-left: .5rem;
+border-top: 1px solid black;
+h4{
+  margin-bottom:0;
+}
+h5{
+  margin-top: .5rem;
+font-size: 1rem;
+margin-bottom: .5rem;
+}
+}
+.event-name {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: $font-color;
+    border-bottom:1px solid black;
+}
+
+.event-details {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+
+    h4 {
+        margin: 0;
+    }
+}
+
+.time-info {
+    text-align: left;
+
+    h5 {
+      margin-top: .5rem;
+font-size: 1rem;
+margin-bottom: .5rem;
+    }
+}
+.review-section{
+  p{
+    padding: 1.2rem;
+    height: 7rem;
+    overflow: scroll;
+  }
+}
+
+.description {
+    height: 9rem;
+    overflow: hidden;
+
+    p {
+        text-overflow: ellipsis;
+    }
+}
+.event-address{
+  font-size:1.2rem;
+}
+.date-time{
+  margin-bottom:0;
+  text-align:left;
+}
+.event-liked-overlay{
+  position: absolute;
+height: 9rem;
+width: 9rem;
+top: 16px;
+left: 8px;
+background: rgba(0, 0, 0, 0.4);
+z-index: 1;
+  .fa{
+    color:red;
+    font-size:9rem;
+  }
+a{
+  text-decoration:none;
+}
+span{
+  position: absolute;
+top: 32px;
+left: 14px;
+color: white;
+text-align: center;
+font-size: 1.5rem;
+width: 80%;
+}
+}
+@media(min-width:700px) {
+    .event-liked-overlay{
+      height:11rem;
+      width:11rem;
+      .fa{
+        font-size:11rem;
+      }
+      span{
+        left:16px;
+        top:55px;
+      }
+    }
+}

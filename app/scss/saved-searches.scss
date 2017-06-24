@@ -1,0 +1,99 @@
+.event-result{
+  width: 85%;
+    margin: 0 auto;
+    background: $background;
+    list-style: none;
+    position: relative;
+    margin-bottom:3rem;
+    img{
+      padding-bottom:1rem;
+      vertical-align:top;
+      margin-top:1rem;
+    }
+    .yelp-icon{
+      width:45%;
+      margin-top:0;
+    }
+  .fa{
+  position: absolute;
+top: 0;
+left: 0;
+padding: .5rem;
+background: rgba(0,0,0,.5);
+color: white;
+font-size: 1.5rem;
+}
+}
+
+.saved-searches {
+    padding: 0;
+    text-align: center;
+}
+
+.saved-search {
+    background: #A2ADB6;
+    width: 23rem;
+    position: relative;
+    margin-bottom: 1rem;
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+
+    h3 {
+        width: 11rem;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        color: white;
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+}
+
+.yelp-icon {
+    width: 33%;
+}
+
+.picture {
+    display: inline-block;
+
+    img {
+        width: 9rem;
+        margin-top: 0.5rem;
+    }
+}
+
+.info {
+    font-size: 0.7rem;
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+}
+
+.no-saved {
+    color: $font-color;
+}
+
+#trash {
+    position: absolute;
+    top: 7rem;
+    right: 2rem;
+    font-size: 1.4rem;
+    transition: color 0.3s ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        color: white;
+    }
+}
+@media(min-width:500px) {
+  .event-result{
+    width: 24rem;
+display: inline-block;
+margin-right: 2rem;
+vertical-align: top;
+margin-bottom:2rem;
+  }
+    .saved-search {
+        margin-right: 1rem;
+    }
+}
